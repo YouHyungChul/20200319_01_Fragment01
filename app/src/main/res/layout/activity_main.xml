@@ -6,6 +6,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         tools:context=".MainActivity">
 
 
@@ -29,11 +30,35 @@
 
 
         </LinearLayout>
-        <fragment
-            android:id="@+id/firstFrag"
+        <LinearLayout
+            android:id="@+id/firstFragLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            class="kr.co.tjoeun.a20200319_01_fragment01.fragments.FirstFragment"/>
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/firstFrag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                class="kr.co.tjoeun.a20200319_01_fragment01.fragments.FirstFragment"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondFragLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/secondFrag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                class="kr.co.tjoeun.a20200319_01_fragment01.fragments.SecondFragment"/>
+
+
+        </LinearLayout>
+
 
 
     </LinearLayout>
