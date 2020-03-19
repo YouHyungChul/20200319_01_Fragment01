@@ -11,18 +11,19 @@
 
 
         <LinearLayout
-            android:id="@+id/firstFragCallBUtton"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/secondFragCallButton"
+                android:id="@+id/firstFragCallBUtton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="첫 프래그먼트"/>
             <Button
+                android:id="@+id/secondFragCallButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
